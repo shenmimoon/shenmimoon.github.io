@@ -16,4 +16,5 @@ twitter_username: shenmimoon
 github_username:  shenmimoon
 
 # Build settings
-markdown: kramdown
+future: true
+incremental: true
