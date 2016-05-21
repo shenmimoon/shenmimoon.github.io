@@ -252,7 +252,7 @@ grep命令用于搜索由Pattern参数指定的模式，并将每个匹配的行
  
 ---
 
-## 参考文献：
+## 参考文献
 
 1. 关于Linux Grep命令使用的详细介绍，http://fanqiang.chinaunix.net/system/linux/2007-03-15/5110.shtml
 
