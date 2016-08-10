@@ -1,19 +1,24 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
 title: SHENMIMOON 的博客
+header-img: img/home-bg.jpg
 email: shenmimu@163.com
+copyright_name: Your/Project/Corporate Name
 description: > # this means to ignore newlines until "baseurl:"
   NO PAIN NO GAIN.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://shenmimoon.github.io/" # the base hostname & protocol for your site
+baseurl: ""
+url: "https://shenmimoon.github.io/"
 twitter_username: shenmimu
 github_username:  shenmimoon
 
+# Google Analytics
+# To enable google analytics, uncomment below line with a valid Google Tracking ID
+# google_tracking_id:
+
 # Build settings
 markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
